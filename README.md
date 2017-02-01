@@ -1,16 +1,23 @@
-#image-resizer
+# Command Line Image Resizing with ImageMagick
 This script is used for creating different sized images that integrate nicely with social media websites. I became quite tired of using finder to resize and resample images for web development projects. Hopefully this tool can help you out as it helps me.
 
 ## Installation
 	git clone https://github.com/mavieth/image-resizer.git
 	cd image-resizer/
-
-## Running	
-In order to run you just have to drop images in the root directory and the script will do the rest. It saves original copies in the originals/ folder, and the resized/resampled images in the dist/ folder.
-
-	sh ./build.sh
 	
-## Before Running
+## Running	
+* Drop images that need resized into project root
+* Run script
+* Profit
+
+```bash
+sh build.sh
+```
+
+
+
+	
+## Before
 
 	├── README.md
 	├── build.sh
@@ -20,7 +27,7 @@ In order to run you just have to drop images in the root directory and the scrip
 	└── originals/
 
 
-## After Running
+## After
 	├── README.md
 	├── build.sh
 	├── dist/
@@ -40,7 +47,10 @@ In order to run you just have to drop images in the root directory and the scrip
 	    ├── macbook.jpeg
 	    └── new-york.jpeg
 
+
+
 ![](http://www.reactiongifs.com/wp-content/uploads/2013/10/tim-and-eric-mind-blown.gif)
+
 
 ## Sharing	
 These are sizes used for sharing posts on your site or for linking things such as [Twitter Cards](https://dev.twitter.com/cards/overview) and [Facebook Cards](https://developers.facebook.com/docs/sharing/webmasters).
@@ -63,7 +73,11 @@ These are sizes used in general (not entirely sure what that means) on various s
 | Pinterest |  735x1102|
 | Instagram |  1080x1080|
 
+
+
 ## Credits
+Contributors are welcome, open up a pull request!
+
 * [My Website](https://www.utilidev.com) - Still in construction...
 * [BufferApp.com](https://blog.bufferapp.com/ideal-image-sizes-social-media-posts) - Social Media Image Sizes
 * [ImageMagick](https://www.imagemagick.org/script/index.php) - Bash Image Resizing Tool

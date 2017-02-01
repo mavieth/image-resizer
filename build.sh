@@ -21,7 +21,7 @@ progress=0
 clear
 echo -e "${BLUE}===========================================${RESET}"
 echo -e "${BOLD}${WHITE}Image Resizer${RESET}\nBy: (https://utilidev.com)"
-echo -e "${BLUE}===========================================${RESET}\n"
+echo -e "${BLUE}===========================================${RESET}"
 
 # Loop through all images in current folder
 for image in `ls *.{png,jpeg,jpg} -R 2>/dev/null`; do
@@ -35,7 +35,7 @@ for image in `ls *.{png,jpeg,jpg} -R 2>/dev/null`; do
     echo -e "\n${BLUE}$progress/${#numFiles[@]}${RESET}${BOLD}\t\t$image${RESET}"
 
     # Compress image
-    convert -strip -interlace Plane -gaussian-blur 0.05 -quality 85% $image $image
+    convert -strip -interlace Plane -gaussian-blur 0.02 -quality 90% $image $image
     echo -e "${GREEN}Compressed \t$image${RESET}"
 
     # Generate sizes

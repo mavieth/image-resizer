@@ -14,8 +14,6 @@ This script is used for creating different sized images that integrate nicely wi
 sh build.sh
 ```
 
-
-
 	
 ## Before
 
@@ -73,7 +71,8 @@ These are sizes used in general (not entirely sure what that means) on various s
 | Pinterest |  735x1102|
 | Instagram |  1080x1080|
 
-
+## Adjust Cropping
+[ImageMagick](http://www.imagemagick.org/Usage/resize/#fill) has well documented parameters that can be interchanged in this script to provide different functionality. (keep image aspect ratio, crop, add background, etc.)
 
 ## Credits
 Contributors are welcome, open up a pull request!

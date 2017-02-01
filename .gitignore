@@ -1,6 +1,10 @@
 dist
 originals
-*.jpg
-*.jpeg
-*.png
+/*.jpg
+!/sample-images/*.jpg
+/*.jpeg
+!/sample-images/*.jpeg
+/*.png
+!/sample-images/*.png
+
 .DS_Store

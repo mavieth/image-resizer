@@ -3,15 +3,17 @@
 mkdir -p dist
 mkdir -p originals
 
-
+# Colored Output
 RED=$(tput setaf 1)
 GREEN=$(tput setaf 2)
 BLUE=$(tput setaf 4)
 RESET=$(tput sgr0)
 BOLD=$(tput bold)
+
 # Image sizes, feel free to change
 declare -a sizes=("1920x1080" "1200x628" "1024x512" "600x400" "300x200")
 
+# Count images in root directory
 numFiles=( *.{png,jpeg,jpg} )
 progress=0
 

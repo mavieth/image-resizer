@@ -1,4 +1,4 @@
-# Command Line Image Resizing with ImageMagick
+# Bash Script Image Resizing with ImageMagick
 This script is used for creating different sized images that integrate nicely with social media websites. I became quite tired of using finder to resize and resample images for web development projects. Hopefully this tool can help you out as it helps me.
 
 ## Installation
